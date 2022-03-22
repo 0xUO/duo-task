@@ -15,7 +15,7 @@ services:
     - 'flask-app'
 flask-app:
     container_name: flask-app
-    image: agray998/tag-me:latest
+    image: uchechi/tag-me:latest
     build: .
     environment:
       YOUR_NAME: ${YOUR_NAME}
