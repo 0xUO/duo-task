@@ -9,4 +9,4 @@ ENV YOUR_NAME=Uche
 # Expose the correct port
 EXPOSE 5500
 # Create an entrypoint
-ENTRYPOINT ["Python", "app.py"]
+ENTRYPOINT ["Python3", "app.py"]
